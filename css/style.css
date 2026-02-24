@@ -1,0 +1,22 @@
+@import "../css/basic/_reset.css";
+@import "../css/basic/_fonts.css";
+@import "../css/basic/_global.css";
+@import "../css/basic/_vars.css";
+
+@import "../css/components/_header.css";
+@import "../css/components/_btn.css";
+@import "../css/components/_footer.css";
+
+@import "../css/home/_main.css";
+@import "../css/home/_development_art.css";
+@import "../css/home/_korba.css";
+@import "../css/home/_trailhive.css";
+@import "../css/home/_awards.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-color: var(--deep_void);
+}
