@@ -1,4 +1,4 @@
-.case-study-dark {
+.trailhive {
   background-image: url("../../images/background-for-dark.png");
   background-size: cover;
   background-position: center;
@@ -10,50 +10,48 @@
   margin-bottom: 40px;
 }
 
-.case-study-dark__content {
+.trailhive__content {
   color: var(--lavender_mist);
+  display: flex;
+  flex-direction: column;
 }
 
-.case-study-dark__content span {
+.trailhive__span {
   font-weight: 400;
-  font-size: 14px;
   line-height: 100%;
-  font-family: var(--font_family);
 }
 
-.case-study-dark__content h2 {
+.trailhive__headline {
   font-weight: 500;
   font-size: 50px;
   line-height: 100%;
   padding-top: 16px;
   padding-bottom: 16px;
   letter-spacing: -0.02em;
-  font-family: var(--font_family);
 }
 
-.case-study-dark__buttons {
+.trailhive__buttons {
   display: flex;
   gap: 8px;
-  padding-bottom: 230px;
 }
 
-.case-study-dark__content p {
+.trailhive__text {
   font-weight: 400;
   font-size: 14px;
   line-height: 160%;
-  font-family: var(--font_family);
   padding-bottom: 32px;
+  margin-top: auto;
 }
 
-.case-study-dark__for-button {
+.trailhive__for-button {
   display: flex;
 }
 
-.case-study-dark__inner {
+.trailhive__inner {
   position: relative;
 }
 
-.case-study-dark__img {
+.trailhive__img {
   position: absolute;
   right: 585px;
   bottom: 350px;

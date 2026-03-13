@@ -1,0 +1,47 @@
+.awards {
+  background-image: url("../../images/bright-background.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 40px;
+  margin-bottom: 40px;
+}
+
+.awards_title {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: var(--deep_void);
+}
+
+.awards_list li {
+  list-style: none;
+}
+
+.awards__link {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--midnight_pulse);
+  padding: 20px 0;
+  width: 715px;
+  text-decoration: none;
+}
+
+.awards_lines h3 {
+  font-weight: 500;
+  font-size: 22px;
+  color: var(--deep_void);
+}
+
+.awards_lines p {
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--deep_void);
+}
+
+.awards_for-border {
+  border-top: 1px solid var(--midnight_pulse);
+}

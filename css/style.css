@@ -1,22 +1,14 @@
-@import "../css/basic/_reset.css";
-@import "../css/basic/_fonts.css";
-@import "../css/basic/_global.css";
-@import "../css/basic/_vars.css";
+@import "basic/_reset.css";
+@import "basic/_fonts.css";
+@import "basic/_global.css";
+@import "basic/_vars.css";
 
-@import "../css/components/_header.css";
-@import "../css/components/_btn.css";
-@import "../css/components/_footer.css";
+@import "components/_header.css";
+@import "components/_btn.css";
+@import "components/_footer.css";
 
-@import "../css/home/_main.css";
-@import "../css/home/_development_art.css";
-@import "../css/home/_korba.css";
-@import "../css/home/_trailhive.css";
-@import "../css/home/_awards.css";
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-    background-color: var(--deep_void);
-}
+@import "home/_main.css";
+@import "home/_development_art.css";
+@import "home/_korba.css";
+@import "home/_trailhive.css";
+@import "home/_awards.css";

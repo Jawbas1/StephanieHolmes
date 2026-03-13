@@ -1,4 +1,4 @@
-.case-study {
+.korba {
   background-image: url("../../images/background.png");
   background-size: cover;
   background-position: center;
@@ -9,44 +9,38 @@
   margin-bottom: 40px;
 }
 
-.case-study__content {
+.korba__content {
   color: var(--deep_void);
   text-align: right;
 }
 
-.case-study__content span {
+.korba__span {
   font-weight: 400;
-  font-size: 14px;
   line-height: 100%;
-  font-family: var(--font_family);
 }
 
-.case-study__content h2 {
+.korba__headline {
   font-weight: 500;
   font-size: 50px;
   line-height: 100%;
   padding-top: 16px;
   padding-bottom: 16px;
   letter-spacing: -0.02em;
-  font-family: var(--font_family);
 }
 
-.case-study__buttons {
+.korba__buttons {
   display: flex;
   justify-content: end;
   gap: 8px;
   padding-bottom: 230px;
 }
 
-.case-study__content p {
+.korba__text {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 160%;
-  font-family: var(--font_family);
   padding-bottom: 32px;
 }
 
-.case-study__for-button {
+.korba__for-button {
   display: flex;
   justify-content: end;
 }

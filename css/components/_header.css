@@ -15,8 +15,6 @@
 .header__list {
   display: flex;
   gap: 24px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
   font-weight: 500;
   line-height: 100%;
 }
@@ -31,7 +29,6 @@
   border-radius: 19px;
   padding: 10px 14px;
   border: 1px solid var(--lavender_mist);
-  font-family: 'Montserrat', sans_serif;
   color: var(--lavender_mist);
   text-decoration: none;
 }

@@ -21,10 +21,9 @@
   margin-top: 40px;
   margin-bottom: 60px;
   color: var(--pure_light);
-  font-family: var(--font_family);
 }
 
-.development__art h2 {
+.development__title {
   font-weight: 400;
   font-size: 32px;
   line-height: auto;
@@ -32,14 +31,12 @@
   padding-bottom: 97px;
 }
 
-.development__art p {
+.development__text {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 160%;
   padding-bottom: 16px;
 }
 
-.development__art__buttons {
+.development__buttons {
   display: flex;
   align-items: center;
   gap: 8px;

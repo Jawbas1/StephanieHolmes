@@ -1,0 +1,40 @@
+footer {
+  background-color: var(--royal_night);
+  border-radius: 20px;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 130px;
+
+}
+
+.footer {
+  padding: 40px;
+  margin-bottom: 20px;
+}
+
+.footer__title p {
+  font-weight: 500;
+  font-size: 100px;
+  line-height: 100%;
+  text-align: center;
+  color: var(--lavender_mist);
+  padding-bottom: 40px;
+}
+
+.footer__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+.footer__text-down {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  color: var(--lavender_mist);
+}
